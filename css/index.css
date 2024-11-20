@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    color: white;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.title{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.heading{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.count{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.move{
+    font-size: 40px;
+    margin-bottom: 15px
+}
+
+.options{
+    margin: 50px 0 40px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+}
